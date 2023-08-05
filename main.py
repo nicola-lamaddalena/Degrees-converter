@@ -1,6 +1,6 @@
 class Converter:
     def celFah(self, celsius: float) -> float:
-        fahrenheit = (celsius * (9 / 5)) + 32
+        fahrenheit = round((celsius * (9 / 5)) + 32, 2)
         return fahrenheit
 
     def fahCel(self, fahrenheit: float) -> float:
@@ -8,7 +8,7 @@ class Converter:
         return celsius
 
     def celKel(self, celsius: float) -> float:
-        kelvin = celsius + 273.15
+        kelvin = round(celsius + 273.15, 2)
         return kelvin
 
     def kelCel(self, kelvin: float) -> float:
