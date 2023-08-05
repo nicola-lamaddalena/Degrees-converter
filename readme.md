@@ -16,3 +16,13 @@ and then call the methods of the instance with a int or float value:
 print(conv.celFah(0))
 # output: 32.0
 ```
+
+The methods can accept string as argument if it's still a number:
+
+```Python
+print(conv.celFah("0"))
+# output: 32.0
+
+print(conv.celFah("zero"))
+# output: Couldn't convert string to float.
+```
