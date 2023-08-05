@@ -4,16 +4,13 @@ Little library that contains functions that convert degrees from one form to ano
 
 Every method of the class *Converter* return a float; in some cases the float value is rounded to the second decimal figure.
 
-Import the library and create an instance of the class *Converter*:
+Create an instance of the class *Converter*:
 
 ```Python
-
-import cTof
-
 conv = Converter()
 ```
 
-then call the methods of the instance with a int or float value:
+and then call the methods of the instance with a int or float value:
 
 ```Python
 print(conv.celFah(0))
