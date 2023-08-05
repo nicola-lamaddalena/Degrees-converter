@@ -1,5 +1,5 @@
 import unittest
-from degreesConversion.src.degreesConversion_nLama.main import *
+from degreesConversion.src.degreesConversion.converter import *
 
 
 class TestMain(unittest.TestCase):
