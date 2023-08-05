@@ -1,8 +1,10 @@
 # Degrees converter
 
-Little library that contains functions that convert degrees from one form to another (e.g. from Celsius to Fahrenheit).
+Simple library that converts temperature from one unit to another one(e.g. from Celsius to Fahrenheit).
 
-Every method of the class *Converter* return a float; in some cases the float value is rounded to the second decimal figure.
+Every method of the class *Converter* returns a float rounded to the second decimal figure.
+
+## Usage
 
 Create an instance of the class *Converter*:
 
@@ -10,14 +12,14 @@ Create an instance of the class *Converter*:
 conv = Converter()
 ```
 
-and then call the methods of the instance with a int or float value:
+and then call the methods of the instance with an int or a float value:
 
 ```Python
 print(conv.celFah(0))
 # output: 32.0
 ```
 
-The methods can accept string as argument if it's still a number:
+The methods can accept a string as argument if it's still a number:
 
 ```Python
 print(conv.celFah("0"))
