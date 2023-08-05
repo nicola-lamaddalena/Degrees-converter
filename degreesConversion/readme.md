@@ -6,9 +6,11 @@ Every method of the class *Converter* returns a float rounded to the second deci
 
 ## Usage
 
-Create an instance of the class *Converter*:
+Import the class *Converter* and create an instance of the class *Converter*:
 
 ```Python
+from degreesConversion.converter import Converter
+
 conv = Converter()
 ```
 
